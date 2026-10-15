@@ -1,11 +1,32 @@
 .first_title {
     color: brown;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 .description {
     color: blueviolet;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .text {
     color: cadetblue;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.text_link {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.house_image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border: 1px solid red;
 }
