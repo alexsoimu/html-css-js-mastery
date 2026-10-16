@@ -24,9 +24,33 @@
     text-decoration: none;
 }
 
-.house_image {
-    width: 300px;
+/* cardul cu haine */
+.shirt {
+    border: 2px solid red;
+    width: 350px;
+    text-align: center;
+}
+
+.shirt_img {
+    /* width: 350px; */
+    width: 100%;
     height: 300px;
-    object-fit: contain;
-    border: 1px solid red;
+    object-fit: cover;
+}
+
+.shirt_price {
+    font-style: italic;
+}
+
+/* cardul cu casa */
+.house {
+    border: 2px solid red;
+    width: 350px;
+    text-align: center;
+}
+
+.house_image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
