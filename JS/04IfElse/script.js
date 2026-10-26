@@ -41,3 +41,27 @@ if (temp > 15) {
 } else {
   console.log("Normal");
 }
+
+// || sau
+// && si
+
+let x1 = 10;
+let y2 = 20;
+
+let a = 40;
+let b = 70;
+
+// ||
+// true + true = true
+// true + false + false = true
+
+// &&
+// true + true = true
+// true + false + false = false
+
+if (x1 != y2 && a == b && a > x1) {
+  console.log(123); // true
+} else {
+  console.log(456); // false
+}
+
