@@ -65,3 +65,18 @@ if (x1 != y2 && a == b && a > x1) {
   console.log(456); // false
 }
 
+// Ternary Operator
+
+if (5 > 4) {
+  console.log("first");
+} else {
+  console.log("second");
+}
+// true    // false
+// const result = 5 < 4 ? "first" : "second";
+
+const temperature = prompt("Introduceti temperatura: ");
+
+const result =
+  temperature >= 15 ? "Caldura" : temperature <= 5 ? "Rece" : "Normal";
+console.log(result);
