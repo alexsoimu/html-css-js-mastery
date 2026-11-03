@@ -1,8 +1,27 @@
-const fructe = ["mere", "banane", "portocale"]
-console.log(fructe);
-console.log(fructe[2]);
-console.log(fructe.length);
+const fructe = [
+  ["mere", "pere"],
+  ["portocale", "mango"],
+];
 
-const numbers = [1, 2, 5, 60]
-console.log(numbers);
-console.log(numbers.length);
+console.log(fructe[1][0]);
+
+// obiecte
+
+const obj = {
+  name: "Gray",
+  age: 25,
+  adress: "New-York",
+  email: "test@gmail.com",
+};
+
+console.log(obj);
+console.log(obj.email);
+
+const objTwo = {
+  name: "Luca",
+  age: 35,
+  adress: "New-York",
+  email: "test@gmail.com",
+};
+
+console.log(objTwo);
