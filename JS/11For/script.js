@@ -2,15 +2,7 @@
 
 // }
 
-const list = ["Edy", "Nic", "Borys", "Gary"];
-console.log(list);
-// console.log(list[0]);
-// console.log(list[1]);
-// console.log(list[2]);
-
-// for (let i = 0; i < list.length; i++) {
-//   console.log(list[i]);
-// }
+const container = document.querySelector(".container");
 
 const people = [
   { name: "Ann", age: 25, budget: 5000 },
@@ -19,6 +11,15 @@ const people = [
 ];
 
 for (let i = 0; i < people.length; i++) {
-  console.log(people[i]);
-  console.log(people[i].name);
+  const name = people[i].name;
+  const age = people[i].age;
+  const budget = people[i].budget;
+  const styleText = age > 25 ? "colorBlue" : "colorGreen";
+  console.log(styleText);
+
+  //   if (budget > 4000) {
+  container.innerHTML += `
+  <p class="${styleText}">${name}: ${age} age.</p>
+  `;
+  //   }
 }
