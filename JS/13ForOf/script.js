@@ -1,4 +1,4 @@
-// for(inceput, conditie, pas) {
+// for(let example of array) {
 
 // }
 
