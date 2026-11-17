@@ -1,29 +1,47 @@
-# [Numele Proiectului Tău]
+# 🚀 JavaScript, HTML & CSS Mastery
 
-> O descriere scurtă și la obiect despre ce face acest proiect.
+This repository contains my practical learning journey for front-end web development, structured step-by-step from core fundamentals to advanced concepts. It includes syntax exercises, DOM manipulation, and hands-on mini-projects.
 
-## 🚀 Caracteristici
+---
 
-- [x] Funcționalitatea 1 (ex: Autentificare utilizatori)
-- [x] Funcționalitatea 2 (ex: Export de date în format PDF)
-- [ ] Funcționalitate în lucru (ex: Suport pentru Dark Mode)
+## 📂 Repository Structure
 
-## 🛠️ Tehnologii Folosite
+The project is divided into two core sections: **JavaScript** (logic and algorithms) and **HTML & CSS** (structure and visual styling).
 
-- **Frontend:** React, Tailwind CSS
-- **Backend:** Node.js, Express
-- **Bază de date:** MongoDB
+### ⚡ 1. JavaScript (Fundamentals & Advanced Methods)
 
-## 💻 Cum să rulezi proiectul local
+The `JS/` directory contains practical exercises for each key concept:
 
-### Cerințe prealabile
+- **01 Introducere** – Basic syntax, variables, and console output.
+- **02 Concatenarea** – Combining and manipulating strings.
+- **03 DOM** – Selecting and modifying page elements directly via JavaScript.
+- **04 If-Else** – Conditional decision-making statements.
+- **05 DOM-IfElse** – Conditional logic applied to visual elements on the page.
+- **06 Function & 07 Function (param)** – Creating and reusing code blocks with parameters.
+- **08 Function-DOM** – Complex dynamic interactions using functions and HTML elements.
+- **09 Array & 10 JSON** – Working with data arrays and JSON storage formats.
+- **11 For, 12 ForEach, 13 ForOf, 14 ForIn** – Iteration structures and modern looping methods.
+- **15 Map, 16 Filter, 17 Reduce** – Essential methods for transforming, filtering, and aggregating arrays in modern JavaScript.
 
-Asigură-te că ai instalat pe calculator:
-- [Node.js](https://nodejs.org/) (versiunea 18 sau mai nouă)
-- Git
+---
 
-### Instalare
+### 🎨 2. HTML & CSS (Design & Layout)
 
-1. Clonează repozitoriul:
-   ```bash
-   git clone [https://github.com/utilizator/nume-proiect.git](https://github.com/utilizator/nume-proiect.git)
+The styling section includes semantic structures and modern design:
+
+- **HTML5:** Semantics, ordered/unordered lists, links, and structuring multimedia elements.
+- **CSS3:** Advanced styling properties, flexible layouts built with **Flexbox** (`justify-content`, `align-items`), gaps, responsive design, and UI components (product cards, containers, images optimized with `object-fit`).
+
+---
+
+## 🛠️ Technologies Used
+
+- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Development Environment:** Visual Studio Code
+- **Version Control:** Git & GitHub
+
+---
+
+## 👤 Author
+
+Developed with passion by **Alex Șoimu** ([GitHub Profile](https://github.com/alexsoimu)).
